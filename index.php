@@ -14,25 +14,25 @@
 
 
 <form action="insert.php" method="post">
-        <label for="fname">First name</label>
+        <label>First name</label>
         <input type="text" name="fname" id="" class="form-control form-control-sm">
 
-        <label for="lname">Last name</label>
+        <label>Last name</label>
         <input type="text" name="lname" id="" class="form-control form-control-sm">
 
-        <label for="email">Email</label>
+        <label>Email</label>
         <input type="email" name="email" id="" class="form-control form-control-sm">
 
-        <label for="age">Age</label>
+        <label>Age</label>
         <input type="number" name="age" id="" class="form-control form-control-sm">
-            <!-- <input type="radio" name="gender" id="" value="Male">Male
-            <input type="radio" name="gender" id="" value="Female">Female -->
+            <input type="radio" name="gender" id="" value="Male">Male
+            <input type="radio" name="gender" id="" value="Female">Female
 
-        <label for="num">Phone</label>
+        <label>Phone</label>
         <input type="number" name="num" id="" class="form-control form-control-sm">
 
 
-        <label for="city">City</label>
+        <label>City</label>
         <select name="city" class="form-control form-control-sm">
             <option value="Karachi">Karachi</option>
             <option value="Peshawar">Peshawar</option>
@@ -41,10 +41,10 @@
             <option value="Multan">Multan</option>
         </select>
         
-        <label for="salary">Salary</label>
+        <label>Salary</label>
         <input type="number" name="salary" id="" class="form-control form-control-sm">
 
-        <label for="des">Designation</label>
+        <label>Designation</label>
         <input type="text" name="des" id="" class="form-control form-control-sm">
 
         <input type="submit" value="Submit" name="SubmitBtn" class="form-control btn btn-primary">
