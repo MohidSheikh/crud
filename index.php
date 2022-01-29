@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -25,8 +25,8 @@
 
         <label for="age">Age</label>
         <input type="number" name="age" id="" class="form-control form-control-sm">
-            <input type="radio" name="gender" id="" value="Male">Male
-            <input type="radio" name="gender" id="" value="Female">Female
+            <!-- <input type="radio" name="gender" id="" value="Male">Male
+            <input type="radio" name="gender" id="" value="Female">Female -->
 
         <label for="num">Phone</label>
         <input type="number" name="num" id="" class="form-control form-control-sm">
